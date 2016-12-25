@@ -11,8 +11,8 @@ class FlashPlugin(object):
 
     def setup(self, app):
         self.app = app
-        self.app.hooks.add('before_request', self.load_flashed)
-        self.app.hooks.add('after_request', self.set_flashed)
+        self.app.add_hook('before_request', self.load_flashed)
+        self.app.add_hook('after_request', self.set_flashed)
         self.app.flash = self.flash
         self.app.get_flashed_messages = self.get_flashed_messages
 
