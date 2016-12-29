@@ -37,7 +37,7 @@ def flash_sample():
 	Latest Version -> '0.13-dev'
 # Installation
 You can install with this command.
-	pip install bottle_flash2
+	pip install bottle-flash2
 
 
 # Motivation
