@@ -36,10 +36,8 @@ def flash_sample():
 	version 0.12.9 or above later.
 	Latest Version -> '0.13-dev'
 # Installation
-**I have not registered with PyPI yet.**<br>
-When I registered, you can install with this command.<br>
-I will register as soon (Within the year == 2016).
-	pip install bottle-flash2
+You can install with this command.
+	pip install bottle_flash2
 
 
 # Motivation
