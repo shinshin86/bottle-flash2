@@ -1,0 +1,11 @@
+ <h3>DONE</h3>
+ {% set messages = app.get_flashed_messages() %}
+ {% if messages %}
+ <div id="flash_messages">
+ <ul>
+ {% for m in messages %}
+ <li>{{ m[0] }}</li>
+ {% endfor %}
+ </ul>
+ </div>
+ {% endif %}
