@@ -1,10 +1,31 @@
 # Bottle-Flash2
-----
-
 flash plugin for bottle.<br>
 (Bottle-Flash2 is a fork of [Bottle-Flash](https://pypi.python.org/pypi/bottle-flash/)).
 
+# Installation
+
+
+You can install with this command.
+
+
+	pip install bottle-flash2
+
+
+# Motivation
+
+I want to run "Bottle-Flash" in my environment.<br>
+
+	Python 3.5.1
+	Bottle v0.12.9
+
+it seems this project that it has not been maintained.<br>
+So I forked it.
+
 # Example
+
+Please see [simple example](./example/README.md) directory.
+
+or
 
 #### app.py
 
@@ -47,32 +68,9 @@ def flash_sample():
 
 # Bottle version (Test environment)
 
-
-
 	version 0.12.9 or above later.
-
+	
 	Latest Version -> '0.13-dev'
-
-
-
-# Installation
-
-
-You can install with this command.
-
-
-	pip install bottle-flash2
-
-
-# Motivation
-
-I want to run "Bottle-Flash" in my environment.<br>
-
-	Python 3.5.1
-	Bottle v0.12.9
-
-it seems this project that it has not been maintained.<br>
-So I forked it.
 
 # Licence
 

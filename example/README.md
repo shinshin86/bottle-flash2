@@ -3,7 +3,7 @@
 Install
 
 ```bash
-pip install bottle bottle-flash2
+pip install bottle bottle-flash2 jinja2
 ```
 
 Start app
