@@ -29,7 +29,7 @@ or
 
 #### app.py
 
-~~~~
+~~~~python
 from bottle import Bottle, post, jinja2_template as template
 from bottle_flash2 import FlashPlugin
 
@@ -53,7 +53,7 @@ def flash_sample():
 
 #### index.html
 
-~~~~
+~~~~html
  {% set messages = app.get_flashed_messages() %}
  {% if messages %}
  <div id="flash_messages">
