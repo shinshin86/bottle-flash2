@@ -25,7 +25,9 @@ So I forked it.
 
 Please see [simple example](./example/README.md) directory.
 
-or
+And example of bottle-flash2 with [SimpleTemplate Engine](https://bottlepy.org/docs/dev/stpl.html) is [here](https://github.com/shinshin86/bottle-flash-2-example-with-simple-template-engine).
+
+And
 
 #### app.py
 
