@@ -1,11 +1,11 @@
 # Bottle-Flash2
 flash plugin for bottle.<br>
-(Bottle-Flash2 is a fork of [Bottle-Flash](https://pypi.python.org/pypi/bottle-flash/)).
+(Bottle-Flash2 is a fork of [Bottle-Flash](https://pypi.python.org/pypi/bottle-flash/))
 
 # Installation
 
 
-You can install with this command.
+You can install `bottle-flash2` using [pip](https://pypi.org/project/bottle_flash2/).
 
 
 	pip install bottle-flash2
@@ -25,7 +25,7 @@ So I forked it.
 
 Please see [simple example](./example/README.md) directory.
 
-And example of bottle-flash2 with [SimpleTemplate Engine](https://bottlepy.org/docs/dev/stpl.html) is [here](https://github.com/shinshin86/bottle-flash-2-example-with-simple-template-engine).
+An example of bottle-flash2 with [SimpleTemplate Engine](https://bottlepy.org/docs/dev/stpl.html) can be found [here](https://github.com/shinshin86/bottle-flash-2-example-with-simple-template-engine).
 
 And
 
@@ -38,7 +38,7 @@ from bottle_flash2 import FlashPlugin
 # Flash Setup
 app = Bottle()
 COOKIE_SECRET = 'super_secret_string'
-app.install(FlashPlugin(secret=COOKIE_SECRET))
+app.install(FlashPlugin(secret=[COOKIE_SECRET]))
 
 @post('/flash_sample_done')
 def flash_sample():
