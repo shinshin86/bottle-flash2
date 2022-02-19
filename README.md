@@ -5,7 +5,7 @@ flash plugin for bottle.<br>
 # Installation
 
 
-You can install `bottle-flash2` using pip.
+You can install `bottle-flash2` using [pip](https://pypi.org/project/bottle_flash2/).
 
 
 	pip install bottle-flash2
